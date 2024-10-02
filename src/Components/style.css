@@ -1,0 +1,59 @@
+
+.loginPage {
+    background: url('/public/images/bg.jpg');
+     background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("/public/images/bg.jpg");
+     
+     /* background: linear-gradient(#e66465, #9198e5); */
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 199, 181, 0.318);
+    color: white;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+    
+
+
+
+.loginForm {
+    background-color: rgba(112, 199, 181, 0.318);
+    color: white;
+    border-radius: 10px;
+
+    
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
